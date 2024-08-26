@@ -1,32 +1,33 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster Crowdfunding*
 
-Submitted by: **Your Name Here**
+Submitted by: **Hunter Nguyen**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **2.5-3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [✅] The introduction section explains the background of the company and how many games remain unfunded.
+* [✅] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [✅] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [✅] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
-The following **optional** features are implemented:
+The following **optional** features are implemented: 
 
-* [ ] List anything else that you can get done to improve the app functionality!
+- In the future, I hope to add new filters based on other properties of the games, such as the sorted number of backers, alphabetical sort, etc..
+- I hope to also add some features that would allow the user to contribute to the game itself, and that data being reflected in real time.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/u7rY6LO' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [LiceCap]([url](https://www.cockos.com/licecap/))  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -35,10 +36,12 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+- Looping through each game card and dynamically creating and appending elements to the DOM was challenging because it required careful handling of both the data and the HTML structure. Each game card needed to be created with specific attributes, such as image source and text content, which meant I had to ensure that each property of the game object was correctly mapped
+- Integrating filtering with DOM updates was another chalenging area. Handling this correctly required understanding how to manipulate the DOM efficiently, using functions like deleteChildElements to clear out old content and then appending the filtered results.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Hunter Nguyen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
