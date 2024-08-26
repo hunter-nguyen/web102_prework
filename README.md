@@ -24,7 +24,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='[https://imgur.com/a/u7rY6LO](https://imgur.com/a/web102-codepath-submission-u7rY6LO)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![hn_web102_submission](https://github.com/user-attachments/assets/1602e69f-f95c-410d-b764-1d97f8ab6902)
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [LiceCap]([url](https://www.cockos.com/licecap/))  
